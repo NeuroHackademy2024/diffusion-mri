@@ -20,4 +20,3 @@ https://docs.google.com/presentation/d/1gBYgj7bvX_WXeWhLaaVascgVg11U0I21FMfHWdSC
 
 For more information, visit the [documentation page in this repository](https://github.com/NeuroHackademy2024/diffusion-mri/tree/main/documentation).
 
-# TESTing for new SSHKEY _QY
