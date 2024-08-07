@@ -1,0 +1,29 @@
+{
+   "participant_id": {
+      "Description": "anonymized participant IDs"
+   },
+   "age": {
+      "Description": "age of the participant",
+      "Units": "Years"
+   },
+   "sex": {
+      "Description": "sex of the participant",
+      "Levels": {
+         "m": "male",
+         "f": "female"
+      }
+   },
+   "phenotype": {
+      "Description": "Diagnosis the participant was given by the clinical team"
+   },
+   "hemisphere": {
+      "Description": "Which hemisphere was implanted with probes containing electrodes for the CCEP experiments",
+      "Levels": {
+         "R": "Right hemisphere",
+         "L": "Left hemisphere"
+      }
+   },
+   "misc_comments": {
+      "Description": "Miscellaneous comments on study, runs, or methodology relevant to these data"
+   }
+}
