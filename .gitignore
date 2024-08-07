@@ -1,3 +1,6 @@
+.DS_Store
+my-qsi-prep.sif
 code/.DS_Store
 code/.ipynb_checkpoints
 code/__pycache__/
+documentation/.ipynb_checkpoints/
