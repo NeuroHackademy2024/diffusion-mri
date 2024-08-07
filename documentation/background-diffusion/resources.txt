@@ -1,0 +1,1 @@
+This folder contains slides from a presentation prepared by students from Neurohackademy 2024 to give a short overview about relevant concepts in diffusion imaging.
