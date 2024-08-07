@@ -10,6 +10,7 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
 * [Lya K. Paas](https://github.com/lilikapa)
 * [Elle Murata](https://github.com/emucsb)
 * [Lupita Yáñez Ramos](https://github.com/Lupitayanez)
+* [Luis A.](https://github.com/LuisA00)
 
 ## Background information about Diffusion Imaging
 
