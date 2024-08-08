@@ -14,7 +14,7 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
 
 ## Background information about Diffusion Imaging
 
-https://docs.google.com/presentation/d/1gBYgj7bvX_WXeWhLaaVascgVg11U0I21FMfHWdSCMzU/edit#slide=id.g27fadbbc47c_2_0 
+[A Short Introduction to Diffusion MRI](https://docs.google.com/presentation/d/1gBYgj7bvX_WXeWhLaaVascgVg11U0I21FMfHWdSCMzU/edit#slide=id.g27fadbbc47c_2_0)
 
 ## Running QSIprep preprocessing pipeline
 
