@@ -16,6 +16,12 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
 
 https://docs.google.com/presentation/d/1gBYgj7bvX_WXeWhLaaVascgVg11U0I21FMfHWdSCMzU/edit#slide=id.g27fadbbc47c_2_0 
 
+## Running QSIprep preprocessing pipeline
+
+1. Get the data: `/code/001-get-hbn-data_lkpo.ipynb`
+2. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh`
+   On Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
+
 ## More info
 
 For more information regarding the present project and instructions to use the jupyter notebooks, visit the [documentation page in this repository](https://github.com/NeuroHackademy2024/diffusion-mri/tree/main/documentation).
