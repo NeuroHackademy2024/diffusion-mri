@@ -8,7 +8,7 @@ The first notebook includes code to download data from HBN to a cloud platform, 
 
 ## Running QSIprep
 
-This project demonstrates how to preprocess diffusion MRI (dMRI) data with QSIprep, an automated pipeline. QSIprep will be run from the terminal as a singularity image. The script Run_QSI_Prep.sh includes the commands used in this project, which should be modified accordingly (e.g. change the path to the FreeSurfer license following your own installation, or using the file included in this repository). Instructions to build the singularity image can be found in 'setup.md'. Once the environment has been has been prepared, QSIprep can be ran from the terminal as follows:
+QSIprep will be run from the terminal as a singularity image. The script Run_QSI_Prep.sh includes the commands used in this project, which should be modified accordingly (e.g. change the path to the FreeSurfer license following your own installation, or using the file included in this repository). Instructions to build the singularity image can be found in 'setup.md'. Once the environment has been has been prepared, QSIprep can be ran from the terminal as follows:
 
 `sh Run_QSI_Prep.sh ID`
 
