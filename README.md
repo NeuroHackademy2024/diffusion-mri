@@ -18,8 +18,9 @@ https://docs.google.com/presentation/d/1gBYgj7bvX_WXeWhLaaVascgVg11U0I21FMfHWdSC
 
 ## Running QSIprep preprocessing pipeline
 
-1. Get the data: `/code/001-get-hbn-data_lkpo.ipynb`
-2. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh`
+1. Get the data: `/code/001-get-hbn-data_lkpo.ipynb` \n
+   Make sure to have `utilities.py` under `/code/`
+3. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh` \n
    On Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
 
 ## More info
