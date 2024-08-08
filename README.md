@@ -36,9 +36,17 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
      4. No need to modify subject id within the script
      5. Look at acquisition parameters to obtain the voxel resolution or modify according to desired voxel size
      6. Point to your freesurface license
+   - After it is done, manually inspect the HTML and figures files for each subject
 4. Run QSIprep reconstruction `/code/003_Run_QSI_Recon.sh`
-   - 
-   
+   - To run the script do on Terminal: `sh 003_Run_QSI_Recon.sh <SUBID>`
+   - Modify all paths according to
+      1. Singularity image
+      2. BIDS formatted `data` directory
+      3. Output directory with qsirecon
+      4. Input directory with the qsiprep outputs from the previous step
+      5. Specify the reconstruction model you want to use. For reference: https://qsiprep.readthedocs.io/en/latest/reconstruction.html
+      6. Look at acquisition parameters to obtain the voxel resolution or modify according to desired voxel size
+      7. Point to your freesurface license
 
 ## More info
 
