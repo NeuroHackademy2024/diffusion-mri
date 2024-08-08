@@ -18,10 +18,16 @@ https://docs.google.com/presentation/d/1gBYgj7bvX_WXeWhLaaVascgVg11U0I21FMfHWdSC
 
 ## Running QSIprep preprocessing pipeline
 
-1. Get the data: `/code/001-get-hbn-data_lkpo.ipynb` \n
-   Make sure to have `utilities.py` under `/code/`
-3. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh` \n
-   On Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
+1. Get the data: `/code/001-get-hbn-data_lkpo.ipynb`
+   - Make sure to have `utilities.py` under `/code/`
+   - Make sure to have `data_description.json` under the BIDS dataset folder
+   - You will need a txt file with the FS_license
+   - Make sure that fmaps belong to the dwi images. We removed the fMRI fmaps
+3. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh`
+   - On Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
+4. Run QSIprep reconstruction `/code/003_Run_QSI_Recon.sh`
+  
+   
 
 ## More info
 
