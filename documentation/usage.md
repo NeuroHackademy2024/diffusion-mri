@@ -12,5 +12,7 @@ QSIprep will be run from the terminal as a singularity image. The script Run_QSI
 
 `sh Run_QSI_Prep.sh ID`
 
+The output of QSIprep includes a detailed report per participant which can be used for quality control, along with the preprocessed dMRI scan. The report includes details regarding the results of skull-stripping, tissue segmentation, co-registration with anatomical images (if available) and normalization to standard. More information regarding QSIprep can be found at [their website](https://qsiprep.readthedocs.io/en/latest/index.html). Key documents are included in this folder. 
+
 ## Fitting a reconstruction algorithm
 
