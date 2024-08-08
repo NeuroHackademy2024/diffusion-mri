@@ -1,0 +1,14 @@
+{
+  "Name": "RBC_HBN",
+  "BIDSVersion": "1.12.0",
+  "DatasetType": "raw",
+  "License": "CC BY",
+  "Authors": [
+    "All"
+  ],
+  "HowToAcknowledge": "xyzzy",
+  "Acknowledgements": "ddd",
+  "Funding": [
+    "NeuroHacademy",
+  ]
+}

@@ -1,7 +1,8 @@
 .DS_Store
 my-qsi-prep.sif
+.ipynb_checkpoints
 code/.DS_Store
-code/.ipynb_checkpoints
+code/.ipynb_checkpoints/visualization_utils.cpython-39.pyc
 code/__pycache__/
 documentation/.ipynb_checkpoints/
 reconstruction/.ipynb_checkpoints/
