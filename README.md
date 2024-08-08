@@ -20,13 +20,24 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
 
 1. Get the data: `/code/001-get-hbn-data_lkpo.ipynb`
    - Make sure to have `utilities.py` under `/code/`
+   - We worked with the unprocessed data under `BIDS_curated` folder. Each subject should have an `anat`, `dwi` and `fmap` folder. 
+   - Data should be downloaded to a `data` folder to comply with BIDS format
    - Make sure to have `data_description.json` under the BIDS dataset folder
    - You will need a txt file with the FS_license
-   - Make sure that fmaps belong to the dwi images. We removed the fMRI fmaps
+   - Make sure that fmaps belong to the dwi images. We removed the fMRI fmaps manually: `rm -rf /tmp/cache/data/sub-*/*/*fmri*`
 3. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh`
-   - On Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
+   - Create singularity image in `diffusion_mri` folder by typing on terminal:
+      - `singularity build ./my-qsi-prep.sif docker://pennbbl/qsiprep:0.22.1`
+   - To run the script do on Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
+   - Modify all paths according to
+     1. singularity image
+     2. BIDS formatted `data` directory
+     3. Output directory
+     4. No need to modify subject id within the script
+     5. Look at acquisition parameters to obtain the voxel resolution or modify according to desired voxel size
+     6. Point to your freesurface license
 4. Run QSIprep reconstruction `/code/003_Run_QSI_Recon.sh`
-  
+   - 
    
 
 ## More info
