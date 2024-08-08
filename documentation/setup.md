@@ -12,7 +12,7 @@ QSIprep can be run from the cloud with a singularity container. The following li
 
 `singularity build ./my-qsi-prep.sif docker://pennbbl/qsiprep:0.22.1`
 
-To be able to successfully preprocess data with this framework, certain files are required as per BIDS guidelines, and these are: dataset_description.json , README , participants.tsv. The files we generated are available in this repository. It is also possible to download the files distributed along with the BIDS_curated HBN dataset. An example line of code to create an empty json file from the terminal:
+To be able to successfully preprocess data with this framework, certain files are required as per BIDS guidelines, and these are: dataset_description.json , README , participants.tsv. The files we generated are available in this repository under the [BIDS](https://github.com/NeuroHackademy2024/diffusion-mri/tree/main/documentation/BIDS) folder. It is also possible to download the files distributed along with the BIDS_curated HBN dataset. An example line of code to create an empty json file from the terminal:
 
 `touch ~/../tmp/cache/sub-*/dataset_description.json`
 
