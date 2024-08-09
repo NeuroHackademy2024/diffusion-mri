@@ -22,7 +22,7 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
    - Make sure to have `utilities.py` under `/code/`
    - We worked with the unprocessed data under `BIDS_curated` folder. Each subject should have an `anat`, `dwi` and `fmap` folder. 
    - Data should be downloaded to a `data` folder to comply with BIDS format
-   - Make sure to have `data_description.json` under the BIDS dataset folder
+   - Make sure to have `data_description.json` under the BIDS dataset folder (You can find it under `/code/dataset_description.json`).
    - You will need a txt file with the FS_license
    - Make sure that fmaps belong to the dwi images. We removed the fMRI fmaps manually: `rm -rf /tmp/cache/data/sub-*/*/*fmri*`
 3. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh`
