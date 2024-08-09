@@ -1,13 +1,16 @@
 #!/bin/bash
 SUBJ=$1
 
-# Running QSIPrep on two subjects from the HBN dataset.
+# This script is for running QSIPrep in singularity, on two subjects from the HBN dataset.
+# Begin by cleaning the environment. We then specify paths to the singularity image, BIDS
+# formatted dataset, preprocessing output directory, and Freesurfer license.
+# We also specify that we want to run on a single subject (subjectID) and give the resolution # of the raw data.
 
-singularity run --cleanenv \ #Cleaning the environment
-~/diffusion_project/my-qsi-prep.sif \ #Path to singularity image path
-~/../../tmp/cache/data/ \ #Path to BIDS formatted dataset
-~/diffusion_project/results/derivatives \ #Path to output directory
-participant \ #Specifying that we want to run on a single subject
---participant-label ${SUBJ} \ #Defining subjectID
---output-resolution 1.8 \ #Voxel size of data
---fs-license-file ~/FS_license.txt #Path to your local copy of Freesurfer license
+singularity run --cleanenv \
+~/diffusion_project/my-qsi-prep.sif \ 
+~/../../tmp/cache/data/ \ 
+~/diffusion_project/results/derivatives \ 
+participant \ 
+--participant-label ${SUBJ} \ 
+--output-resolution 1.8 \ 
+--fs-license-file ~/FS_license.txt 
