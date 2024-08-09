@@ -10,4 +10,4 @@ singularity run --cleanenv \ #Cleaning the environment
 participant \ #Specifying that we want to run on a single subject
 --participant-label ${SUBJ} \ #Defining subjectID
 --output-resolution 1.8 \ #Voxel size of data
---fs-license-file ~/diffusion_project/freesurfer/license.txt #Path to your local copy of Freesurfer license
+--fs-license-file ~/FS_license.txt #Path to your local copy of Freesurfer license
