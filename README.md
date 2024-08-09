@@ -28,7 +28,7 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
 3. Run QSIprep preprocessing: `/code/002_Run_QSI_Prep.sh`
    - Create singularity image in `diffusion_mri` folder by typing on terminal:
       - `singularity build ./my-qsi-prep.sif docker://pennbbl/qsiprep:0.22.1`
-   - To run the script do on Terminal: `sh 002_Run_QSI_Prep.sh <SUBID>`
+   - To run the script do on Terminal: `./002_Run_QSI_Prep.sh <SUBID>`
    - Modify all paths according to
      1. singularity image
      2. BIDS formatted `data` directory
@@ -38,7 +38,7 @@ Project for [Neurohackacademy 2024](https://github.com/NeuroHackademy2024). Cont
      6. Point to your freesurface license
    - After it is done, manually inspect the HTML and figures files for each subject
 4. Run QSIprep reconstruction `/code/003_Run_QSI_Recon.sh`
-   - To run the script do on Terminal: `sh 003_Run_QSI_Recon.sh <SUBID>`
+   - To run the script do on Terminal: `./003_Run_QSI_Recon.sh <SUBID>`
    - Modify all paths according to
       1. Singularity image
       2. BIDS formatted `data` directory
