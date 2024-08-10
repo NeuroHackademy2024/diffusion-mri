@@ -27,4 +27,8 @@ This project strived to contribute to the interpretation of QSIprep output with 
 
 `sh /code/003_Run_QSI_Recon.sh`
 
-There are several reconstruction algorithms available in QSIprep. The above script can be used to fit an algorithm appropiate for multi-shell dMRI data. Different reconstruction method were explored in this project.
+There are several reconstruction algorithms available in QSIprep. The above script can be used to fit an algorithm appropiate for multi-shell dMRI data. 
+
+Different reconstruction methods were explored in this project. A short report comparing the performance of diffusion tensor imaging (DTI) and constrained spherical deconvolution (CSD) can be found at:
+
+    /code/reconstruction/003-recon-model-comparison.ipynb
